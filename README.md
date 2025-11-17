@@ -1,4 +1,4 @@
-# EngiTrack
+# ProTrack
 
 A clean, minimal, and efficient student productivity app for managing day-to-day activities and improving consistency.
 
@@ -87,7 +87,7 @@ A clean, minimal, and efficient student productivity app for managing day-to-day
 
 ## Docker Deployment (Web)
 
-EngiTrack can be deployed as a web application using Docker. See [DOCKER_DEPLOYMENT.md](DOCKER_DEPLOYMENT.md) for detailed instructions.
+ProTrack can be deployed as a web application using Docker. See [DOCKER_DEPLOYMENT.md](DOCKER_DEPLOYMENT.md) for detailed instructions.
 
 ### Quick Start with Docker
 
