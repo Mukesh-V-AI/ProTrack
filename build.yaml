@@ -1,0 +1,9 @@
+targets:
+  $default:
+    builders:
+      hive_generator:hive_generator:
+        enabled: true
+        options:
+          # Generate adapters for all models
+          generate_adapters: true
+

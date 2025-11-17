@@ -1,0 +1,85 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Documentation (keep README.md)
+*.md
+!README.md
+
+# IDE
+.idea
+.vscode
+*.iml
+*.ipr
+*.iws
+
+# Flutter/Dart
+.dart_tool
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache
+.pub
+build/
+**/build/
+
+# Android
+android/
+**/android/
+
+# iOS
+ios/
+**/ios/
+
+# macOS
+macos/
+**/macos/
+
+# Windows
+windows/
+**/windows/
+
+# Linux
+linux/
+**/linux/
+
+# Test files
+test/
+**/*_test.dart
+**/*.test.dart
+
+# Coverage
+coverage/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Firebase config (should be configured via environment or firebase_options.dart)
+**/google-services.json
+**/GoogleService-Info.plist
+firebase.json
+.firebaserc
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Docker files (don't need in image)
+Dockerfile
+docker-compose.yml
+.dockerignore
+DOCKER_DEPLOYMENT.md
