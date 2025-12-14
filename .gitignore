@@ -18,10 +18,8 @@ migrate_working_dir/
 *.iws
 .idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# VS Code
+.vscode/
 
 # Flutter/Dart/Pub related
 **/doc/api/
@@ -48,6 +46,11 @@ app.*.map.json
 **/google-services.json
 **/GoogleService-Info.plist
 
-# Generated files (Hive adapters - these should be committed)
-# Uncomment if you don't want to commit generated files:
-# lib/**/*.g.dart
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.env.local
