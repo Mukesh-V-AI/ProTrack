@@ -57,8 +57,8 @@ A clean, minimal, and efficient student productivity app for managing day-to-day
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd engitrack
+   git clone https://github.com/Mukesh-V-AI/ProTrack.git
+   cd ProTrack
    ```
 
 2. **Install dependencies**
@@ -118,10 +118,10 @@ The app will be available at `http://localhost:8080`
 2. **Build and Deploy:**
    ```bash
    # Build image
-   docker build -t engitrack:latest .
+   docker build -t protrack:latest .
    
    # Run container
-   docker run -d -p 8080:80 engitrack:latest
+   docker run -d -p 8080:80 protrack:latest
    ```
 
 ## Project Structure
@@ -176,4 +176,4 @@ Generated automatically every Sunday, showing:
 
 ## License
 
-This project is private and not intended for public distribution.
+This project is licensed under the MIT License. See LICENSE file for details.
